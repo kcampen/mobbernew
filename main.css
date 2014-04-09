@@ -1,10 +1,149 @@
-.body {
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Didact Gothic', sans-serif;
 
 }
 
-.nav-bar {
-	height: 59px;
-	width: 100%;
-	background-color: black;
+body * {
+	vertical-align: top;
+}
+
+.container {
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+}
+
+.header {
+	height: 60px;
+	background-image: url("images/navbar.png");
+	position: relative;
+	box-shadow: 0 1px 1px rgb(245,245,245);
+	color: white;
+}
+
+.logo {
+	height: 60px;
+	width: 165px;
+	background-image: url("images/logo.png");
+
+}
+
+.nav {
+	padding: 0;
+	margin: 17px 0 0 30px; 
+	display: inline-block;
+}
+
+.nav li {
+	letter-spacing: 2px;
+	font font-size: 43px;
+	text-transform: uppercase;
+	display: inline-block;
+	position: relative;
+	left: 147px;
+	bottom: 59px;
+}
+
+.user-menu {
+	margin: 0 auto;
+	display: inline-block;
+	float: right;
+	padding-top: 10px;
+	bottom: 71px;
+	position: relative;
+
+}
+
+.username {
+	color: white;
+	font-size: 17px;
+	margin-top: 10px;
+}
+
+.avatar {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	margin: -5px 10px 0 0;
+	display: inline-block;
+}
+
+.avatar-style {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+.dropdown {
+	background-image: url("images/arrow.png");
+	height: 60px;
+	width: 20px;
+	display: inline-block;
+}
+
+/*sub header*/
+
+.sub-header {
+	height: 88px;
+	box-shadow: 0 5px 5px -4px gray;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+
+/*first section*/
+
+.middle {
+	height: 578px;
+	background-color: rgb(239, 237, 233);
+}
+
+.mob-container {
+	width: 623px;
+	height: 530px;
+}
+
+.mob-photo {
+	width: 620px;
+	height: 403px;
+	background-image: url("images/spacejam.png");
+	position: relative;
+	top: 31px;
+}
+
+.banner-top {
+	height: 55px;
+	width: 620px;
+	background: rgba(0, 0, 0, 0.5);
+	position: relative;
+	color: white;
+}
+
+.clock {
+	background-image: url("images/clock.svg");
+	height: 22px;
+	width: 26px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	background-size: contain;
+	left: 204px;
+	top: 11px;
+	position: relative;
+	display: inline-block;
+}
+
+/*section 2*/
+
+.section {
+	height: 612px;
+	background-color: white;
+}
+
+/*footer*/
+.footer {
+	height: 338px;
+	background-color: rgb(84, 83, 82);
 }
 
