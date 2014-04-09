@@ -1,0 +1,15 @@
+.body {
+
+}
+
+.nav-bar {
+	height: 59px;
+	width: 100%;
+	background-color: black;
+}
+
+.logo {
+	height: 60px;
+	width: 56px;
+	background-image: url("images/logo.png");
+}
